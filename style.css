@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #073932;
+    background:;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e0d2d2;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* عرض المنتجات أفقياً */
+section h3 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.products-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.products-container a {
+    text-align: center;
+    background-color: #67767a;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(247, 248, 248, 0.1);
+    flex-shrink: 0;
+}
+
+.products-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 14px;
+}
+.contact-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.contact-icons a {
+  background: #033670;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.whatsapp-btn {
+    display: inline-block;      /* يجعل الزر بحجم مناسب */
+    padding: 5px 10px;          /* المسافة داخل الزر */
+    font-size: 14px;            /* حجم الخط أصغر */
+    text-decoration: none;      /* إزالة الخط السفلي للنص */
+    background-color: #25D366;  /* لون واتساب الأخضر */
+    color: white;               /* نص أبيض */
+    border-radius: 5px;         /* زوايا مدورة */
+    transition: 0.3s;           /* تأثير بسيط عند المرور بالفأرة */
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;  /* لون داكن عند المرور */
+}
+
+        /* تنسيق الحاوية */
+        .products-container {
+            display: flex;          /* عرض المنتجات أفقياً */
+            flex-wrap: wrap;        /* يسمح للصف بالانتقال للسطر التالي إذا ضاقت الشاشة */
+            gap: 20px;              /* المسافة بين المنتجات */
+            justify-content: center; /* توسيط المنتجات في الصفحة */
+            padding: 20px;
+        }
+
+        /* كل بطاقة منتج */
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            width: 220px;           /* حجم كل بطاقة */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+
+        /* رابط واتساب */
+        .product a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #25D366; /* لون واتساب الأخضر */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .product a:hover {
+            background-color: #128C7E; /* لون عند المرور على الرابط */
+        }
+
+        /* ترويسة الصفحة */
+        header h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* قسم التواصل في الفوتر */
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+      
+        .products-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            width: 220px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+        .product a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .product a:hover {
+            background-color: #128C7E;
+        }
+        header h1 { text-align: center; margin-top: 20px; }
+        footer { text-align: center; padding: 20px; }
+        .contact-icons a { margin: 0 10px; text-decoration: none; font-size: 18px;
+         }
+         p{
+            background: #687171;
+         }
+         h1{
+            background:rgb(96, 93, 88);
+         }  h1{
+            background:rgb(63, 40, 1);
+         }
+    h2{
+        background: darkslategray;
+    }
